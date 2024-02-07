@@ -24,3 +24,35 @@ header button{
     font-weight: 500;
 }
 /* ---------------------------------main */
+main{
+    max-width: 1850px;
+    margin: 0 auto;
+}
+.main-contenitor{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+.row{
+    flex-grow: 1;
+    position: relative;
+    height: 150px;
+    width: 250px;
+    margin: 6px;
+}
+.row span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 6px;
+    background-color: rgba(128, 128, 128, 0.5);
+
+}
+.row img{
+    position: absolute;
+}
