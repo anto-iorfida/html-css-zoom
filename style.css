@@ -1,10 +1,18 @@
+/* **************************************** */
+/* *********  RULL GENERAL      *********** */
+/* **************************************** */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
 }
-/* ------------------------------header */
+body{
+    background-color: black;
+}
+/* **************************************** */
+/* *********       HEADER       *********** */
+/* **************************************** */
 header{
     height: 32px;
     background-color: black;
@@ -23,14 +31,19 @@ header button{
     padding: 2px 4px;
     font-weight: 500;
 }
-/* ---------------------------------main */
+/* **************************************** */
+/* *********       MAIN         *********** */
+/* **************************************** */
 main{
     max-width: 1850px;
+    height: calc(100vh - 102px);
     margin: 0 auto;
+    overflow: auto;
 }
 .main-contenitor{
     display: flex;
     flex-wrap: wrap;
+    margin-top : 30px;
 }
 img{
     height: 100%;
@@ -40,19 +53,54 @@ img{
 .row{
     flex-grow: 1;
     position: relative;
-    height: 150px;
-    width: 250px;
-    margin: 6px;
+    height: 100px;
+    width: 200px;
+    margin: 4px;
 }
 .row span{
     position: absolute;
     bottom: 0;
     left: 0;
     color: white;
-    padding: 6px;
+    font-size: 12px;
+    padding: 4px;
     background-color: rgba(128, 128, 128, 0.5);
 
 }
 .row img{
     position: absolute;
+}
+/* **************************************** */
+/* *********       FOOTER       *********** */
+/* **************************************** */
+footer{
+    height: 70px;
+    color: white;
+    /* padding: 10px 0; */
+}
+footer p{
+    font-size: 10px;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    font-size: 4vh;
+    list-style: none;
+    padding: 10px;
+}
+footer li{
+    text-align: center;
+}
+.footer-contenitor{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-right{  
+    align-self: stretch;
+    line-height: 70px;
+    background-color: #4a4a4a;
+    color: #b04c39;
+    padding: 0 12px;
 }
