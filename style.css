@@ -35,7 +35,7 @@ header button{
 /* *********       MAIN         *********** */
 /* **************************************** */
 main{
-    max-width: 1850px;
+    max-width: 1250px;
     height: calc(100vh - 102px);
     margin: 0 auto;
     overflow: auto;
@@ -106,4 +106,25 @@ footer li{
 }
 .icon-share{
     color: #4bc800;
+    padding-left: 20px;
+}
+.icon-share span{
+    color: white;
+}
+.col-left li{
+    text-align: left;
+}
+.icon-videos{
+    margin-left: 8px;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+span:hover{
+    background-color: rgba(128, 128, 128, 0.6);
+}
+footer span{
+    font-size:20px;
+    margin-left: 12px;
+    padding: 1px;
 }
